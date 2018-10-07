@@ -32,5 +32,10 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  },
+  "git": {
+    "scripts": {
+      "pre-push": "gatsby build && surge --project ./public --domain mikeymax.club"
+    }
   }
 }
