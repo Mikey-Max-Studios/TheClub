@@ -12,82 +12,83 @@ import pic05 from '../assets/images/pic05.jpg'
 import pic06 from '../assets/images/pic06.jpg'
 
 class HomeIndex extends React.Component {
-    render() {
+  render() {
+    return (
+      <Layout>
+        <Helmet
+          title="Home | Mikey Max Club"
+          meta={[
+            { name: 'description', content: 'Mikey Max Club' },
+            { name: 'keywords', content: 'catering, gaming' },
+          ]}
+        />
 
-        return (
-            <Layout>
-                <Helmet
-                    title="Gatsby Starter - Forty"
-                    meta={[
-                        { name: 'description', content: 'Sample' },
-                        { name: 'keywords', content: 'sample, something' },
-                    ]}
-                >
-                </Helmet>
+        <Banner />
 
-                <Banner />
-
-                <div id="main">
-                    <section id="one" className="tiles">
-                        <article style={{backgroundImage: `url(${pic01})`}}>
-                            <header className="major">
-                                <h3>Aliquam</h3>
-                                <p>Ipsum dolor sit amet</p>
-                            </header>
-                            <Link to="/landing" className="link primary"></Link>
-                        </article>
-                        <article style={{backgroundImage: `url(${pic02})`}}>
-                            <header className="major">
-                                <h3>Tempus</h3>
-                                <p>feugiat amet tempus</p>
-                            </header>
-                            <Link to="/landing" className="link primary"></Link>
-                        </article>
-                        <article style={{backgroundImage: `url(${pic03})`}}>
-                            <header className="major">
-                                <h3>Magna</h3>
-                                <p>Lorem etiam nullam</p>
-                            </header>
-                            <Link to="/landing" className="link primary"></Link>
-                        </article>
-                        <article style={{backgroundImage: `url(${pic04})`}}>
-                            <header className="major">
-                                <h3>Ipsum</h3>
-                                <p>Nisl sed aliquam</p>
-                            </header>
-                            <Link to="/landing" className="link primary"></Link>
-                        </article>
-                        <article style={{backgroundImage: `url(${pic05})`}}>
-                            <header className="major">
-                                <h3>Consequat</h3>
-                                <p>Ipsum dolor sit amet</p>
-                            </header>
-                            <Link to="/landing" className="link primary"></Link>
-                        </article>
-                        <article style={{backgroundImage: `url(${pic06})`}}>
-                            <header className="major">
-                                <h3>Etiam</h3>
-                                <p>Feugiat amet tempus</p>
-                            </header>
-                            <Link to="/landing" className="link primary"></Link>
-                        </article>
-                    </section>
-                    <section id="two">
-                        <div className="inner">
-                            <header className="major">
-                                <h2>Massa libero</h2>
-                            </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
-                            <ul className="actions">
-                                <li><Link to="/landing" className="button next">Get Started</Link></li>
-                            </ul>
-                        </div>
-                    </section>
-                </div>
-
-            </Layout>
-        )
-    }
+        <div id="main">
+          <section id="one" className="tiles">
+            <article style={{ backgroundImage: `url(${pic01})` }}>
+              <header className="major">
+                <h3>Catering</h3>
+                <p>Kitchen gadget fuelled dinner parties</p>
+              </header>
+              <Link to="/catering" className="link primary" />
+            </article>
+            <article style={{ backgroundImage: `url(${pic02})` }}>
+              <header className="major">
+                <h3>Game Development</h3>
+                <p>The future of gaming is here</p>
+              </header>
+              <Link to="/game-dev" className="link primary" />
+            </article>
+            <article style={{ backgroundImage: `url(${pic03})` }}>
+              <header className="major">
+                <h3>Hot Sauce</h3>
+                <p>Making the worlds best condaments</p>
+              </header>
+              <Link to="/hot-sauce" className="link primary" />
+            </article>
+            <article style={{ backgroundImage: `url(${pic04})` }}>
+              <header className="major">
+                <h3>Web Development</h3>
+                <p>Making websites for those in need</p>
+              </header>
+              <Link to="/web-dev" className="link primary" />
+            </article>
+            <article style={{ backgroundImage: `url(${pic05})` }}>
+              <header className="major">
+                <h3>Sub10</h3>
+                <p>Golfing banter</p>
+              </header>
+              <Link to="/sub10" className="link primary" />
+            </article>
+            <article style={{ backgroundImage: `url(${pic06})` }}>
+              <header className="major">
+                <h3>Business Development</h3>
+                <p>Turning dreams into reality</p>
+              </header>
+              <Link to="/busines-dev" className="link primary" />
+            </article>
+          </section>
+          <section id="two">
+            <div className="inner">
+              <header className="major">
+                <h2>The Mikey Max Club</h2>
+              </header>
+              <p>We need to fill in this with more content</p>
+              <ul className="actions">
+                <li>
+                  <Link to="/events" className="button next">
+                    Upcoming Events
+                  </Link>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </div>
+      </Layout>
+    )
+  }
 }
 
 export default HomeIndex

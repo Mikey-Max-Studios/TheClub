@@ -2,26 +2,24 @@ import React from 'react'
 import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
-import BannerEvents from '../components/BannerEvents'
+import BannerLanding from '../components/BannerLanding'
 
 import pic08 from '../assets/images/pic08.jpg'
 import pic09 from '../assets/images/pic09.jpg'
 import pic10 from '../assets/images/pic10.jpg'
 
-const Events = props => (
+const Landing = props => (
   <Layout>
     <Helmet>
-      <title>Events | Mikey Max Club</title>
-      <meta name="description" content="Events Page" />
+      <title>Catering | Mikey Max Club</title>
+      <meta name="description" content="Catering Events" />
     </Helmet>
-
-    <BannerEvents />
 
     <div id="main">
       <section id="one">
         <div className="inner">
           <header className="major">
-            <h2>Sed amet aliquam</h2>
+            <h2>Catering Events</h2>
           </header>
           <p>
             Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
@@ -118,4 +116,4 @@ const Events = props => (
   </Layout>
 )
 
-export default Events
+export default Landing
