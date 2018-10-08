@@ -16,8 +16,12 @@ const Menu = props => (
             Events
           </Link>
         </li>
-        {/* <li><Link onClick={props.onToggleMenu} to="/generic">Generic</Link></li>
-                <li><Link onClick={props.onToggleMenu} to="/elements">Elements</Link></li> */}
+        <li><Link onClick={props.onToggleMenu} to="/catering">Catering</Link></li>
+        <li><Link onClick={props.onToggleMenu} to="/hot-sauce">Hot Sauce</Link></li>
+        <li><Link onClick={props.onToggleMenu} to="/sub10">Sub10 Golf</Link></li>
+        <li><Link onClick={props.onToggleMenu} to="/business-dev">Business Development</Link></li>
+        <li><Link onClick={props.onToggleMenu} to="/web-dev">Web Development</Link></li>
+        <li><Link onClick={props.onToggleMenu} to="/game-dev">Game Development</Link></li>
       </ul>
       {/* <ul className="actions vertical">
         <li>
