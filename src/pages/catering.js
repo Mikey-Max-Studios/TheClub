@@ -22,13 +22,11 @@ const Landing = props => (
             <h2>Catering Events</h2>
           </header>
           <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            magna sed nunc rhoncus condimentum sem. In efficitur ligula tate
-            urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Nullam et orci eu lorem consequat tincidunt vivamus et
-            sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula
-            tate urna.
+            Our energetic events team will work with you to create an event that
+            works within your goals or brand parameters. At each stage of your
+            event journey, we will endeavour to exceed all expectations, whether
+            you are hosting a wedding reception, dinner, awards ceremony,
+            meeting, product launch or fashion show.
           </p>
         </div>
       </section>

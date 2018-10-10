@@ -7,11 +7,7 @@ const BannerEvents = props => (
         <h1>Events</h1>
       </header>
       <div className="content">
-        <p>
-          Lorem ipsum dolor sit amet nullam consequat
-          <br />
-          sed veroeros. tempus adipiscing nulla.
-        </p>
+        <p>Upcoming events from Mikey Max Catering.</p>
       </div>
     </div>
   </section>

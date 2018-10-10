@@ -18,22 +18,6 @@ const Events = props => (
     <BannerEvents />
 
     <div id="main">
-      <section id="one">
-        <div className="inner">
-          <header className="major">
-            <h2>Sed amet aliquam</h2>
-          </header>
-          <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            magna sed nunc rhoncus condimentum sem. In efficitur ligula tate
-            urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Nullam et orci eu lorem consequat tincidunt vivamus et
-            sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula
-            tate urna.
-          </p>
-        </div>
-      </section>
       <section id="two" className="spotlights">
         <section>
           <Link to="/generic" className="image">
@@ -42,18 +26,15 @@ const Events = props => (
           <div className="content">
             <div className="inner">
               <header className="major">
-                <h3>Orci maecenas</h3>
+                <h3>End of Summer Bash</h3>
               </header>
               <p>
-                Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-                magna sed nunc rhoncus condimentum sem. In efficitur ligula tate
-                urna. Maecenas massa sed magna lacinia magna pellentesque lorem
-                ipsum dolor. Nullam et orci eu lorem consequat tincidunt.
-                Vivamus et sagittis tempus.
+                Join us on the 13th of October for an end of summer feast fit
+                for kings!
               </p>
               <ul className="actions">
                 <li>
-                  <Link to="/generic" className="button">
+                  <Link to="/events/event-menu" className="button">
                     Learn more
                   </Link>
                 </li>
@@ -68,15 +49,9 @@ const Events = props => (
           <div className="content">
             <div className="inner">
               <header className="major">
-                <h3>Rhoncus magna</h3>
+                <h3>Christmas 2018</h3>
               </header>
-              <p>
-                Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-                magna sed nunc rhoncus condimentum sem. In efficitur ligula tate
-                urna. Maecenas massa sed magna lacinia magna pellentesque lorem
-                ipsum dolor. Nullam et orci eu lorem consequat tincidunt.
-                Vivamus et sagittis tempus.
-              </p>
+              <p>Come and join in the festivities at Mikey Max Catering HQ</p>
               <ul className="actions">
                 <li>
                   <Link to="/generic" className="button">
@@ -94,15 +69,9 @@ const Events = props => (
           <div className="content">
             <div className="inner">
               <header className="major">
-                <h3>Sed nunc ligula</h3>
+                <h3>Christmas 2019</h3>
               </header>
-              <p>
-                Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-                magna sed nunc rhoncus condimentum sem. In efficitur ligula tate
-                urna. Maecenas massa sed magna lacinia magna pellentesque lorem
-                ipsum dolor. Nullam et orci eu lorem consequat tincidunt.
-                Vivamus et sagittis tempus.
-              </p>
+              <p>Come and join in the festivities at Mikey Max Catering HQ</p>
               <ul className="actions">
                 <li>
                   <Link to="/generic" className="button">
