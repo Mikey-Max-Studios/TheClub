@@ -25,8 +25,7 @@ const Generic = props => (
             <li>Aubergine Dip with homemade focaccia</li>
             <li>Assorted Salami’s &amp; Cheeses</li>
           </ul>
-          <h3>Antipasti</h3>
-          <h3>Primi</h3>
+           <h3>Primi</h3>
           <ul>
             <li>Squid Ink Ravioli with mushroom and bacon filling</li>
           </ul>
