@@ -26,11 +26,6 @@ const Generic = props => (
             <li>Assorted Salami’s &amp; Cheeses</li>
           </ul>
           <h3>Antipasti</h3>
-          <ul>
-            <li>Bruschetta – Goats Cheese &amp; Squash</li>
-            <li>Aubergine Dip with homemade focaccia</li>
-            <li>Assorted Salami’s &amp; Cheeses</li>
-          </ul>
           <h3>Primi</h3>
           <ul>
             <li>Squid Ink Ravioli with mushroom and bacon filling</li>
@@ -38,12 +33,12 @@ const Generic = props => (
           <h3>Secondi</h3>
           <ul>
             <li>
-              Sous Vide Venison Loin with celeriac puree and micro herbage
+              Venison loin with celeriac puree and braised radicchio
             </li>
           </ul>
-          <h3>Dessert</h3>
+          <h3>Dolce</h3>
           <ul>
-            <li>Zombie Brains Delight</li>
+            <li>Raspberry Panna Cotta Suprise</li>
             <li>Espresso Martinis</li>
           </ul>
         </div>
