@@ -27,7 +27,7 @@ const Generic = props => (
           </ul>
            <h3>Primi</h3>
           <ul>
-            <li>Squid Ink Ravioli with mushroom and bacon filling</li>
+            <li>Ravioli with mushroom and bacon filling</li>
           </ul>
           <h3>Secondi</h3>
           <ul>
